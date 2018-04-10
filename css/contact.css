@@ -1,0 +1,138 @@
+
+
+  .contact-info i {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    border-radius: 6px;
+  }
+  
+  .contact {
+    background: white;
+  }
+  
+  .contact-info h2 {
+    margin-top: 0;
+    color: #000;
+  }
+  
+  .contact-info {
+    color: #000;
+  }
+
+  #contact-page {
+    padding-top: 0;
+    background: #fff;
+    margin-bottom: 50px;
+  }
+  
+  #contact-page .contact-form .form-group label {
+    color: #4E4E4E;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .form-group .form-control {
+    padding: 7px 12px;
+    border-color: #f2f2f2;
+    box-shadow: none;
+  }
+  
+  .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  #sendmessage {
+    color: 607D8B;
+    ;
+    border: 1px solid 607D8B;
+    ;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  #sendmessage.show,
+  #errormessage.show,
+  .show {
+    display: block;
+  }
+  
+  #contact-page .contact-wrap {
+    margin-top: 20px;
+  }
+  
+  .center h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 39px;
+    color: black;
+  }
+  
+  .center p {
+    text-align: center;
+  }
+  
+  .btn-lg:hover {
+    color: #000099;
+    background: #ddd;
+  }
+  
+  a.scrollup {
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    opacity: 0, 5;
+    border-radius: 50%;
+    z-index: 999;
+  }
+  
+  a.scrollup:hover {
+    opacity: 1;
+    background-color: #ddd;
+    color: #000099;
+  }
+  
+  
+  .contact {
+    background: white;
+    padding: 6px;
+  }
+  
+  
+  .contact-us-details {
+    padding: 1px;
+    font-size: 16px;
+    font-family: 'Crimson Text', serif;
+    line-height: 30px;
+  }
+

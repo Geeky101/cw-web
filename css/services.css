@@ -1,0 +1,56 @@
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  color: black;
+  margin-left: 15px;
+}
+
+.services {
+  margin-top: 60px;
+}
+
+
+.services h2 {
+  color: #000099;
+}
+
+.services p {
+  color: black;
+}
+
+#servicesAbout {
+  color: black;
+  font-size: 21px;
+  font-family: 'Crimson Text', serif;
+  padding: 6px;
+  line-height: 30px;
+  margin-top: 12px;
+}
+
+.serviceList li {
+  color: black;
+  font-size: 21px;
+  font-weight: 200;
+  font-family: 'Crimson Text', serif;
+  line-height: 25px;
+}
+
+.serviceList span {
+  color: #000099;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.services img {
+  border-radius: 0px;
+}
+
+.sub-services {
+  padding: 50px;
+  background: #ddd;
+}
+
+.sub-services p {
+  margin-top: 30px;
+  font-size: 13px;
+}

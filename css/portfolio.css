@@ -1,0 +1,88 @@
+#portfolio .center p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.portfolio-items,
+.portfolio-filter {
+  list-style: none outside none;
+  margin: 0 0 40px 0;
+  padding: 0;
+}
+
+.portfolio-filter>li {
+  display: inline-block;
+}
+
+.portfolio-filter>li a {
+  background: none repeat scroll 0 0 #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 20px;
+  text-transform: uppercase;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+  border: 1px solid #F2F2F2;
+  outline: none;
+  border-radius: 3px;
+}
+
+.portfolio-filter>li a:hover,
+.portfolio-filter>li a.active {
+  color: #fff;
+  background: #000099;
+  border: 1px solid #000099;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.portfolio-items>li {
+  float: left;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.portfolio-item {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-seperator {
+  height: 90px;
+}
+
+.portfolio-img,
+.portfolio-text {
+  padding: 6px;
+}
+
+.menu a {
+  font-size: 1.1em
+}
+
+.client {
+  padding: 1px;
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+  line-height: 30px;
+  color: #000099;
+}
+
+.project-name {
+  padding: 1px;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.view {
+  padding: 1px;
+  font-size: 15px;
+  font-family: 'IBM Plex Serif', serif;
+  line-height: 30px;
+
+}

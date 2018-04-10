@@ -1,0 +1,379 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+#displacer {
+	width: 100%;
+	height: 60px;
+}
+
+ul {
+	display: block;
+}
+
+.li-value {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+	margin-left: 10px;
+	text-align: left !important;
+}
+
+.li-p {
+	padding-bottom: 5px !important;
+}
+
+.wrap .info-1 .info-title {
+	padding-bottom: 10px;
+}
+
+.wrap .info-1 .info-title h2 {
+	display: block;
+	width: fit-content;
+	margin: 0 auto;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.wrap .info-1 .info-content p {
+	font-size: 12px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+.info-content .wrapper-1 {
+	width: 80%;
+	margin: 10px auto;
+	border: 1px solid #e1e1e1;
+	padding: 10px;
+}
+
+.info-content .wrapper-2 {
+	width: 80%;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.info-content .wrapper-2 h2 {
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 0;	
+}
+
+.info-content .wrapper-2 .h-core {
+	display: block;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.info-content .wrapper-2 p {
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+
+.info-content .wrapper-1 h2 {
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 0;	
+}
+
+.info-content .wrapper-1 .h-core {
+	display: block;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.info-content .wrapper-1 p {
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#show-info-1 {
+	font-size: 10px;
+	font-style: italic;
+	color: rgb(0,153,153);
+}
+
+
+#hide-info-1 {
+	display: none;
+}
+
+.p-history {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.client-image {	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+.download-info {
+	display: block;
+	width: 50% !important;
+	min-width: 100px !important;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	margin: 10px 20px;
+}
+
+.btn-slide {
+	display: block !important;
+	width: fit-content;
+	padding: 8px 20px;
+	background: #000099;
+	color: #fff;
+	border-radius: 4px;
+	margin: 25px auto;
+	display: inline-block;
+}
+
+.more-cards {
+	display: none;
+}
+
+.more-details {
+	display: none;
+}
+
+main {
+	padding-top: 50px;
+}
+
+section {
+	padding: 30px 0;
+	background: white;
+}
+
+section.wrap-main-content {
+	background: #eeeef2;
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.client-title {
+	margin-top: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.row.clients {
+	background: #c7c9c8;
+	border-radius: 0;
+	margin: 0;
+	border-bottom: solid 2px #c7c9c8;
+	border-right: solid 1px #c7c9c8;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.clients .col-md-2 {
+	padding0;
+	border-top: solid 1px #c7c9c8;
+	border-left: solid 1px #c7c9c8;
+	overflow: hidden;
+}
+
+.col-xs-4 {
+	width: 33.333333333%;
+	float: left;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	font-weight: 300px;
+}
+
+@media only screen and (min-width: 770px){
+	#displacer {
+		height: 140px;
+	}
+	
+	.more-cards {
+		display: block;
+	}
+	
+	.more-details {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+	section {
+		padding: 60px 0;
+	}
+	
+	.container {
+		max-width: 750px;
+	}
+	
+	h2 {
+		font-size: 32px;
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	.client-info {
+		display: block;
+	}
+
+	#displacer {
+		height: 100px;
+	}
+	
+	.wrapper-1 {
+		float: left;
+		width: 300px !important;
+	}
+	
+	.wrap-spec {
+		height: 120px !important;		
+	}
+	
+	.info-content {
+		display: block !important;
+		width: fit-content !important;
+		margin: 0 auto !important;
+	}
+	
+	.wrap-client {
+		display: block;
+		height: 320px;
+		margin-top: 0 !important;
+	}
+	
+	.align-box {
+		display: block;
+		width: 900px;
+		height: content;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	
+	.info-1 {
+		display: block !important;
+		width: fit-content !important;
+		margin: 0 auto !important;
+	}	
+}
