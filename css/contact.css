@@ -125,14 +125,14 @@
   
   .contact {
     background: white;
-    padding: 6px;
+    padding: 1px;
   }
   
   
   .contact-us-details {
-    padding: 1px;
-    font-size: 9px;
+    padding: 6px;
+    font-size: 18px;
     font-family: 'Crimson Text', serif;
-    line-height: 30px;
+    line-height: 3px;
   }
 
