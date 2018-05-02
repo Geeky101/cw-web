@@ -3541,8 +3541,11 @@ fieldset[disabled] .btn-success.active {
 
 .btn-info {
     color: #fff;
-    background-color: #5bc0de;
-    border-color: #46b8da
+    background: transparent;
+    color: #286496 !important;
+    border-color: #286496;
+    border-radius: 0;
+    font-family: museo-sans,"Helvetica Neue",Times,serif !important;
 }
 
 .btn-info:hover,
