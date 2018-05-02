@@ -333,13 +333,12 @@ a:hover {
   transition: color 300ms, background-color 300ms;
 }
 
-
-
 /* --- footer --- */
 
 .footer {
   background: #000099;
   padding: 15px 22px;
+  height: 90px;
 }
 
 

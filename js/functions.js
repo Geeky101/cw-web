@@ -88,7 +88,7 @@ $('#plantHiring').click(function () {
 	window.location = 'planthiring.html';
 });
 $('#plantSelling').click(function () {
-	window.location = 'plantselling.html';
+	window.location = 'planthiring.html';
 });
 $('#locationIcon').click(function () {
 	var locateUs = "https://maps.google.com/?q=-17.805488,30.946908"
