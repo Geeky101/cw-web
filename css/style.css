@@ -686,3 +686,14 @@ ul.sidebar-gallery {
   color: #000099;
 
 }
+#latestProjects{
+  padding: 3px;
+  height: 45px;
+  text-align: center;
+}
+#scrollImage{
+position: absolute;
+bottom: 10px;
+margin: auto;
+left: 0;
+right: 0;}
