@@ -5,7 +5,7 @@ jQuery(function($) {
   new WOW().init();
 
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 200) {
       $(".scrollup").fadeIn();
       $("#scrollImage").removeClass("shake-slow shake-constant");
       $("#whatWeDo").addClass("cssanimation leDoorCloseRight sequence");
@@ -28,6 +28,7 @@ jQuery(function($) {
     return false;
   });
 
+  
   // portfolio filter
   $(window).load(function() {
     "use strict";
