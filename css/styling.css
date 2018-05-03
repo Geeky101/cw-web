@@ -1,7 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url('font-awesome.css');
+/* ==== overwrite bootstrap standard ==== */
+
+@import url('animate.css');
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6em;
+  color: #fff;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
 * {
 	list-style: none;
 	text-decoration: none;
 }
+
+
 
 Body {
 	font-family: 'Open Sans', Arial, sans-serif;
@@ -332,3 +349,59 @@ h4 {
 	0%{transform: rotateY(0deg)}
 	100%{transform: rotateY(90deg)}
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+	.navbar-brand {
+	  padding-top: 6px;
+	}
+	.navbar-brand h1 {
+	  margin-top: 0;
+	}
+	.nav-tabs>li {
+	  float: none;
+	  display: block;
+	}
+	.menu {
+	  position: absolute;
+	  left: 0;
+	  right: 0;
+	  background: #fff;
+	  height: auto;
+	}
+	.nav-tabs>li>a {
+	  padding: 15px 15px;
+	  border-bottom: 1px solid #f3f3f3;
+	}
+	.nav-tabs>li>a:hover {
+	  border-color: #f3f3f3;
+	}
+
+	.history-left {
+		width: 100%;
+	}
+
+	.history-right {
+		display: none;
+	}
+
+	.displace {
+		height: 350px !important;
+	}
+
+	.panels li {
+		display: block;
+		width: 80%;
+		margin: 0 auto 10px !important;		
+	}
+
+	.our-history {
+		text-align: center;
+	}
+
+	.btn {
+		display: block;
+		margin: 0 auto;
+	}
+  }
