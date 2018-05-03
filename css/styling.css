@@ -166,6 +166,7 @@ a {
 	border: 1px solid #ccc;
 	overflow: hidden;
 	background: #fff;
+	animation: twirl 0.2s ease-out forwards reverse;
 }
 
 .panels li div {
@@ -188,8 +189,8 @@ p.client-desc{
 	font-size: 12px;
 	text-transform: unset;
 	letter-spacing: 0;
-	padding: 0;
-	margin: 0;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 .panels li:hover div.front {
@@ -224,7 +225,7 @@ p.client-desc{
 }
 
 .history-right {
-	line-height: 400px;
+	line-height: 250px;
 }
 
 .img-history {
@@ -274,13 +275,19 @@ p.client-desc{
 .displace {
 	padding-top: 100px;
 	margin-bottom: 20px;
-	height: 400px !important;
+	height: 300px !important;
 }
 
-.middle {
+.last-item {
 	padding-top: 20px;
 	margin-bottom: 20px;
-	height: 400px !important;
+	height: 350px !important;
+}
+
+.reverse-align{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	height: 250px !important;
 }
 
 .reverse-align .history-left {
