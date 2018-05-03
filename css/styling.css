@@ -299,6 +299,25 @@ h4 {
 	color: #000;
 }
 
+.footer {
+    background: #000099;
+    padding: 15px 22px;
+    height: 90px;
+}
+
+.copyright {
+    margin-top: 30px;
+	text-align: right;
+	color: #fff !important;
+}
+
+.copyright a {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 12px;
+    text-shadow: none;
+}
+
 /* // ANIMATION STYLES // */
 
 .panels div.back {
