@@ -5,7 +5,7 @@ jQuery(function($) {
   new WOW().init();
 
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 200) {
+    if ($(this).scrollTop() > 300) {
       $(".scrollup").fadeIn();
       $("#scrollImage").removeClass("shake-slow shake-constant");
       $("#whatWeDo").addClass("cssanimation leDoorCloseRight sequence");
