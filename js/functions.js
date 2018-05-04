@@ -8,13 +8,9 @@ jQuery(function($) {
     if ($(this).scrollTop() > 300) {
       $(".scrollup").fadeIn();
       $("#scrollImage").removeClass("shake-slow shake-constant");
-      $("#whatWeDo").addClass("cssanimation leDoorCloseRight sequence");
-
-
     } else {
       $(".scrollup").fadeOut();
       $("#scrollImage").addClass("shake-slow shake-constant");
-
 
     }
   });
@@ -91,5 +87,5 @@ $("#locationIcon").click(function() {
   var locateUs = "https://maps.google.com/?q=-17.805488,30.946908";
   window.location = locateUs;
 });
+$("#whatWeDo").addClass("cssanimation leDoorCloseRight sequence");
 $("#scrollImage").addClass("shake-slow shake-constant");
-$("#whatWeDo").addClass("cssanimation leDoorCloseLeft sequence");
