@@ -87,5 +87,6 @@ $("#locationIcon").click(function() {
   var locateUs = "https://maps.google.com/?q=-17.805488,30.946908";
   window.location = locateUs;
 });
-$("#whatWeDo").addClass("cssanimation leDoorCloseRight sequence");
+$("#whatWeDo").addClass("cssanimation leFadeInLeft sequence");
 $("#scrollImage").addClass("shake-slow shake-constant");
+

@@ -693,7 +693,15 @@ ul.sidebar-gallery {
 }
 #scrollImage{
 position: absolute;
-bottom: 120px;
+bottom: 18px;
 margin: auto;
 left: 0;
 right: 0;}
+
+.backgroundImageAnimation{
+  margin: 1px;
+}
+
+.zoom:hover {
+  transform: scale(1.04); 
+}
